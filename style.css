@@ -1,0 +1,67 @@
+/*Aplicamos estilo de letras al H1 y el color*/
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+/*Manejamos las caracteristicas de nav dandole color, posiciones, etc*/
+.nav {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    background-color: rgb(67, 64, 64);
+}
+/*Area de caja de titulo*/
+.nav-title{
+    float: right;
+    margin: 10px;
+}
+
+/*Area de caja de Links*/
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 480px;
+    margin: 10px;
+}
+
+/*Definiciones del Button, color, efecto, tamaño*/
+.btn {
+
+    font-size: 17px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    background-color: #0dada8;
+    margin: 2px;
+    box-shadow: 0 9px rgb(7, 7, 7);
+  }
+
+.active {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Quitar subrayado de link*/
+a:link {
+    text-decoration: none;
+   
+}
+
+
+/*Quitamos viñetas*/
+li {
+
+    list-style-type: none;
+
+}
+
+/*Damos estilo a los links*/
+ a {
+    color: gray;
+    font-family:  'Roboto', sans-serif;
+ }
+
